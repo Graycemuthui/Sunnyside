@@ -110,8 +110,21 @@ a:hover {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 2rem;
+  margin-left: 3rem;
 }
 
 .card-heading {
   font-size: 2rem;
+}
+
+.small-text {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-top: 3rem;
+}
+
+.main-cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
