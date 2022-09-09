@@ -258,6 +258,15 @@ footer {
   color: hsl(198, 100%, 1%);
 }
 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
 /* Mobile Version */
 @media screen and (max-width: 768px) {
   html,
