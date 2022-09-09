@@ -246,6 +246,10 @@ footer {
   color: var(--footer-text);
 }
 
+.footer-links:hover {
+  color: hsl(0, 4%, 5%);
+}
+
 .footer-icons {
   display: flex;
   gap: 2rem;
